@@ -96,23 +96,23 @@ export default function Home() {
       </section>
 
       {/* Education Section */}
-      <section id="education" className="py-20 px-4 sm:px-6 lg:px-8 bg-stone-50 dark:bg-slate-800/50">
+      <section id="education" className="py-20 px-4 sm:px-6 lg:px-8 bg-red-50/30">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-12 text-center">Education</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">Education</h2>
           <div className="space-y-8">
             {/* Add your actual education details here */}
-            <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700">
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-red-100">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Master's/Bachelor's Degree</h3>
-                <span className="text-slate-600 dark:text-slate-400">Year - Year</span>
+                <h3 className="text-xl font-semibold text-slate-900">Master's/Bachelor's Degree</h3>
+                <span className="text-slate-600">Year - Year</span>
               </div>
-              <p className="text-slate-600 dark:text-slate-400 mb-2">University Name</p>
-              <p className="text-slate-700 dark:text-slate-300">Major/Field of Study • GPA: X.X/4.0</p>
+              <p className="text-slate-600 mb-2">University Name</p>
+              <p className="text-slate-700">Major/Field of Study • GPA: X.X/4.0</p>
             </div>
             
             {/* Add more education entries as needed */}
-            <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 opacity-60">
-              <div className="text-center text-slate-500 dark:text-slate-400">
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-red-100 opacity-60">
+              <div className="text-center text-slate-500">
                 <p>Add your education details here</p>
                 <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
               </div>
@@ -124,18 +124,18 @@ export default function Home() {
       {/* Experience Section */}
       <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-12 text-center">Professional Experience</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">Professional Experience</h2>
           <div className="space-y-8">
             {/* Add your actual job history here */}
-            <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700">
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-slate-900 dark:text-white">Job Title</h3>
-                  <p className="text-red-900 dark:text-red-400">Company Name</p>
+                  <h3 className="text-xl font-semibold text-slate-900">Job Title</h3>
+                  <p className="text-red-900">Company Name</p>
                 </div>
-                <span className="text-slate-600 dark:text-slate-400">Start Date - End Date</span>
+                <span className="text-slate-600">Start Date - End Date</span>
               </div>
-              <ul className="text-slate-700 dark:text-slate-300 space-y-2">
+              <ul className="text-slate-700 space-y-2">
                 <li>• Key achievement or responsibility</li>
                 <li>• Another important contribution</li>
                 <li>• Technologies used: React, Node.js, etc.</li>
@@ -143,8 +143,8 @@ export default function Home() {
             </div>
 
             {/* Placeholder for additional experience */}
-            <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 opacity-60">
-              <div className="text-center text-slate-500 dark:text-slate-400">
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200 opacity-60">
+              <div className="text-center text-slate-500">
                 <p>Add your work experience here</p>
                 <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
               </div>
@@ -154,30 +154,30 @@ export default function Home() {
       </section>
 
       {/* Research Section */}
-      <section id="research" className="py-20 px-4 sm:px-6 lg:px-8 bg-stone-50 dark:bg-slate-800/50">
+      <section id="research" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-red-50/20 to-orange-50/20">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-12 text-center">Research & Projects</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">Research & Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Add your research projects here */}
-            <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700">
-              <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-3">Research Project Title</h3>
-              <p className="text-slate-600 dark:text-slate-400 mb-4">Brief description of your research focus and methodology.</p>
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-red-100">
+              <h3 className="text-lg font-semibold text-slate-900 mb-3">Research Project Title</h3>
+              <p className="text-slate-600 mb-4">Brief description of your research focus and methodology.</p>
               <div className="flex flex-wrap gap-2">
-                <span className="bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200 px-2 py-1 rounded text-sm">ML</span>
-                <span className="bg-amber-100 dark:bg-amber-900 text-amber-800 dark:text-amber-200 px-2 py-1 rounded text-sm">AI</span>
+                <span className="bg-red-100 text-red-800 px-2 py-1 rounded text-sm">ML</span>
+                <span className="bg-amber-100 text-amber-800 px-2 py-1 rounded text-sm">AI</span>
               </div>
             </div>
 
             {/* Placeholder cards */}
-            <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 opacity-60">
-              <div className="text-center text-slate-500 dark:text-slate-400">
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-red-100 opacity-60">
+              <div className="text-center text-slate-500">
                 <p>Add your research projects</p>
                 <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
               </div>
             </div>
 
-            <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 opacity-60">
-              <div className="text-center text-slate-500 dark:text-slate-400">
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-red-100 opacity-60">
+              <div className="text-center text-slate-500">
                 <p>Add more projects</p>
                 <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
               </div>
@@ -189,20 +189,20 @@ export default function Home() {
       {/* Publications Section */}
       <section id="publications" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-12 text-center">Publications</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">Publications</h2>
           <div className="space-y-6">
             {/* Add your publications here */}
-            <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700">
-              <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">Publication Title</h3>
-              <p className="text-slate-600 dark:text-slate-400 mb-2">Authors: <span className="font-medium">Your Name</span>, Co-author Names</p>
-              <p className="text-slate-600 dark:text-slate-400 mb-2">Conference/Journal Name, Year</p>
-              <p className="text-slate-700 dark:text-slate-300 mb-4">Brief abstract or description of the publication.</p>
-              <a href="#" className="text-red-900 dark:text-red-400 hover:underline">View Publication →</a>
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200">
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">Publication Title</h3>
+              <p className="text-slate-600 mb-2">Authors: <span className="font-medium">Your Name</span>, Co-author Names</p>
+              <p className="text-slate-600 mb-2">Conference/Journal Name, Year</p>
+              <p className="text-slate-700 mb-4">Brief abstract or description of the publication.</p>
+              <a href="#" className="text-red-900 hover:underline">View Publication →</a>
             </div>
 
             {/* Placeholder for publications */}
-            <div className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-slate-200 dark:border-slate-700 opacity-60">
-              <div className="text-center text-slate-500 dark:text-slate-400">
+            <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200 opacity-60">
+              <div className="text-center text-slate-500">
                 <p>Add your publications here</p>
                 <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
               </div>
@@ -212,37 +212,37 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-stone-50 dark:bg-slate-800/50">
+      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-red-50/30 to-amber-50/30">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-8">Let's Connect</h2>
-          <p className="text-lg text-slate-600 dark:text-slate-300 mb-12">
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">Let's Connect</h2>
+          <p className="text-lg text-slate-600 mb-12">
             I'm always interested in discussing new opportunities, research collaborations, or innovative projects.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="bg-red-100 dark:bg-red-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">📧</span>
               </div>
-              <h3 className="font-semibold text-slate-900 dark:text-white mb-2">Email</h3>
-              <a href="mailto:niverdpereira@gmail.com" className="text-red-900 dark:text-red-400 hover:underline">
+              <h3 className="font-semibold text-slate-900 mb-2">Email</h3>
+              <a href="mailto:niverdpereira@gmail.com" className="text-red-900 hover:underline">
                 niverdpereira@gmail.com
               </a>
             </div>
             <div className="text-center">
-              <div className="bg-red-100 dark:bg-red-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">💼</span>
               </div>
-              <h3 className="font-semibold text-slate-900 dark:text-white mb-2">LinkedIn</h3>
-              <a href="https://www.linkedin.com/in/shovon-niverd-pereira/" className="text-red-900 dark:text-red-400 hover:underline">
+              <h3 className="font-semibold text-slate-900 mb-2">LinkedIn</h3>
+              <a href="https://www.linkedin.com/in/shovon-niverd-pereira/" className="text-red-900 hover:underline">
                 linkedin.com/in/shovon-niverd-pereira
               </a>
             </div>
             <div className="text-center">
-              <div className="bg-red-100 dark:bg-red-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🐙</span>
               </div>
-              <h3 className="font-semibold text-slate-900 dark:text-white mb-2">GitHub</h3>
-              <a href="https://github.com/PereiraMavs" className="text-red-900 dark:text-red-400 hover:underline">
+              <h3 className="font-semibold text-slate-900 mb-2">GitHub</h3>
+              <a href="https://github.com/PereiraMavs" className="text-red-900 hover:underline">
                 github.com/PereiraMavs
               </a>
             </div>
@@ -251,8 +251,8 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-stone-200 dark:border-slate-700">
-        <div className="max-w-6xl mx-auto text-center text-slate-600 dark:text-slate-400">
+      <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-red-100">
+        <div className="max-w-6xl mx-auto text-center text-slate-600">
           <p>&copy; 2025 Shovon Niverd Pereira. All rights reserved.</p>
         </div>
       </footer>
