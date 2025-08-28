@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white dark:bg-slate-900 relative overflow-hidden">
+    <div className="min-h-screen bg-white relative overflow-hidden">
       {/* Background Doodles */}
-      <div className="fixed inset-0 pointer-events-none opacity-10 dark:opacity-5">
+      <div className="fixed inset-0 pointer-events-none opacity-20">
         {/* Computer and Tech Doodles */}
         <div className="absolute top-20 left-10 text-6xl text-red-800 transform rotate-12">💻</div>
         <div className="absolute top-40 right-20 text-4xl text-stone-600 transform -rotate-12">🤖</div>
@@ -31,19 +31,19 @@ export default function Home() {
       </div>
 
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-stone-200 dark:border-slate-700">
+      <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-stone-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
-            <div className="text-xl font-bold text-slate-900 dark:text-white">
+            <div className="text-xl font-bold text-slate-900">
               Shovon Niverd Pereira
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#about" className="text-stone-600 hover:text-red-900 dark:text-slate-300 dark:hover:text-red-400 transition-colors">About</a>
-              <a href="#education" className="text-stone-600 hover:text-red-900 dark:text-slate-300 dark:hover:text-red-400 transition-colors">Education</a>
-              <a href="#experience" className="text-stone-600 hover:text-red-900 dark:text-slate-300 dark:hover:text-red-400 transition-colors">Experience</a>
-              <a href="#research" className="text-stone-600 hover:text-red-900 dark:text-slate-300 dark:hover:text-red-400 transition-colors">Research</a>
-              <a href="#publications" className="text-stone-600 hover:text-red-900 dark:text-slate-300 dark:hover:text-red-400 transition-colors">Publications</a>
-              <a href="#contact" className="text-stone-600 hover:text-red-900 dark:text-slate-300 dark:hover:text-red-400 transition-colors">Contact</a>
+              <a href="#about" className="text-stone-600 hover:text-red-900 transition-colors">About</a>
+              <a href="#education" className="text-stone-600 hover:text-red-900 transition-colors">Education</a>
+              <a href="#experience" className="text-stone-600 hover:text-red-900 transition-colors">Experience</a>
+              <a href="#research" className="text-stone-600 hover:text-red-900 transition-colors">Research</a>
+              <a href="#publications" className="text-stone-600 hover:text-red-900 transition-colors">Publications</a>
+              <a href="#contact" className="text-stone-600 hover:text-red-900 transition-colors">Contact</a>
             </div>
           </div>
         </div>
@@ -54,11 +54,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-6">
+              <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
                 Software Engineer &
-                <span className="text-red-900 dark:text-red-400"> Researcher</span>
+                <span className="text-red-900"> Researcher</span>
               </h1>
-              <p className="text-lg text-stone-600 dark:text-slate-300 mb-8 leading-relaxed">
+              <p className="text-lg text-stone-600 mb-8 leading-relaxed">
                 Passionate about creating innovative solutions through technology. 
                 I specialize in full-stack development, research, and building scalable applications 
                 that make a meaningful impact.
