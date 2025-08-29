@@ -247,10 +247,16 @@ export default function HomePage() {
           <p className="text-lg text-gray-700 mb-12">
             I'm always interested in discussing new opportunities, research collaborations, or innovative projects.
           </p>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="bg-pink-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">📧</span>
+                <Image
+                  src="/icons8-gmail-50.png"
+                  alt="Email"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8"
+                />
               </div>
               <h3 className="font-semibold text-purple-800 mb-2">Email</h3>
               <a href="mailto:niverdpereira@gmail.com" className="text-pink-700 hover:underline">
@@ -258,21 +264,48 @@ export default function HomePage() {
               </a>
             </div>
             <div className="text-center">
-              <div className="bg-purple-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">💼</span>
+              <div className="bg-blue-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Image
+                  src="/icons8-linkedin-50.png"
+                  alt="LinkedIn"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8"
+                />
               </div>
               <h3 className="font-semibold text-purple-800 mb-2">LinkedIn</h3>
-              <a href="https://www.linkedin.com/in/shovon-niverd-pereira/" className="text-pink-700 hover:underline">
+              <a href="https://www.linkedin.com/in/shovon-niverd-pereira/" className="text-pink-700 hover:underline" target="_blank" rel="noopener noreferrer">
                 linkedin.com/in/shovon-niverd-pereira
               </a>
             </div>
             <div className="text-center">
-              <div className="bg-rose-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🐙</span>
+              <div className="bg-gray-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Image
+                  src="/icons8-github-50.png"
+                  alt="GitHub"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8"
+                />
               </div>
               <h3 className="font-semibold text-purple-800 mb-2">GitHub</h3>
-              <a href="https://github.com/PereiraMavs" className="text-pink-700 hover:underline">
+              <a href="https://github.com/PereiraMavs" className="text-pink-700 hover:underline" target="_blank" rel="noopener noreferrer">
                 github.com/PereiraMavs
+              </a>
+            </div>
+            <div className="text-center">
+              <div className="bg-green-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Image
+                  src="/icons8-google-scholar-50.png"
+                  alt="Google Scholar"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8"
+                />
+              </div>
+              <h3 className="font-semibold text-purple-800 mb-2">Google Scholar</h3>
+              <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=Kokbc-oAAAAJ" className="text-pink-700 hover:underline" target="_blank" rel="noopener noreferrer">
+                View Publications
               </a>
             </div>
           </div>
