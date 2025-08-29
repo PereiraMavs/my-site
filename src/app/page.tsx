@@ -3,28 +3,6 @@ import Image from 'next/image'
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 to-purple-50 relative overflow-hidden">
-      {/* Back to Top Button */}
-      <button
-        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        className="fixed bottom-6 right-6 z-50 bg-pink-600 hover:bg-pink-700 text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2"
-        aria-label="Back to top"
-        title="Back to top"
-      >
-        <svg 
-          className="w-6 h-6" 
-          fill="none" 
-          stroke="currentColor" 
-          viewBox="0 0 24 24"
-        >
-          <path 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
-            strokeWidth={2} 
-            d="M5 10l7-7m0 0l7 7m-7-7v18" 
-          />
-        </svg>
-      </button>
       {/* Background Doodles */}
       <div className="fixed inset-0 pointer-events-none opacity-20">
         {/* Computer and Tech Doodles */}
