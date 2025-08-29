@@ -60,9 +60,11 @@ export default function HomePage() {
                 Researcher & Software Engineer
               </p>
               <p className="text-base sm:text-lg text-gray-700 mb-6 lg:mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                I'm passionate about software development, artificial intelligence, 
-                and cutting-edge research. Currently pursuing my Master's in Computer Science 
-                with a focus on machine learning and data science.
+                I'm a PhD candidate in Computer Science at UT Arlington with over 2 years of 
+                industry experience as a Senior Software Engineer at Samsung R&D Institute. 
+                My research focuses on explainable AI and surrogate models for machine learning, 
+                while I actively contribute to academia as a Graduate Teaching Assistant across 
+                multiple courses from Object-Oriented Software Engineering to Machine Learning.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
                 <a 
