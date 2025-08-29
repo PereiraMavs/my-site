@@ -40,6 +40,8 @@ export default function HomePage() {
           <a href="#about" className="text-purple-600 hover:text-pink-600 transition-colors">About</a>
           <a href="#education" className="text-purple-600 hover:text-pink-600 transition-colors">Education</a>
           <a href="#experience" className="text-purple-600 hover:text-pink-600 transition-colors">Experience</a>
+          <a href="#awards" className="text-purple-600 hover:text-pink-600 transition-colors">Awards</a>
+          <a href="#leadership" className="text-purple-600 hover:text-pink-600 transition-colors">Leadership</a>
           <a href="#research" className="text-purple-600 hover:text-pink-600 transition-colors">Research</a>
           <a href="#contact" className="text-purple-600 hover:text-pink-600 transition-colors">Contact</a>
         </div>
@@ -208,6 +210,174 @@ export default function HomePage() {
             <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200 opacity-60">
               <div className="text-center text-gray-500">
                 <p>Add your work experience here</p>
+                <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Awards and Recognition Section */}
+      <section id="awards" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-yellow-50 to-orange-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-pink-900 mb-12 text-center">Awards & Recognition</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Add your awards here */}
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-yellow-200">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center">
+                    <span className="text-white text-xl">🏆</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-purple-800 mb-2">STEM Graduate Fellowship (Federal)</h3>
+                  <p className="text-purple-600 font-medium mb-2">UT Arlington</p>
+                  <p className="text-gray-700 text-sm mb-2">2022-Ongoing</p>
+                  <p className="text-gray-600">Federal fellowship supporting graduate studies in STEM fields, recognizing academic excellence and research potential.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-yellow-200">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center">
+                    <span className="text-white text-xl">🎖️</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-purple-800 mb-2">Dean's Graduate Research Assistant</h3>
+                  <p className="text-purple-600 font-medium mb-2">UT Arlington</p>
+                  <p className="text-gray-700 text-sm mb-2">Summer 2024</p>
+                  <p className="text-gray-600">Prestigious research assistantship awarded by the Dean for outstanding academic performance and research contributions.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-yellow-200">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center">
+                    <span className="text-white text-xl">✈️</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-purple-800 mb-2">Travel Grant to 13th Summer School on Formal Techniques</h3>
+                  <p className="text-purple-600 font-medium mb-2">Stanford Research Institute</p>
+                  <p className="text-gray-700 text-sm mb-2">2024</p>
+                  <p className="text-gray-600">Competitive travel grant to attend advanced summer school on formal methods and verification techniques at Stanford.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-yellow-200">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center">
+                    <span className="text-white text-xl">🏅</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-purple-800 mb-2">Qualified for 2018 ICPC Asia Dhaka Regional Programming Contest</h3>
+                  <p className="text-purple-600 font-medium mb-2">International Collegiate Programming Contest</p>
+                  <p className="text-gray-700 text-sm mb-2">2018</p>
+                  <p className="text-gray-600">Qualified for the prestigious ICPC Asia Dhaka Regional, demonstrating exceptional competitive programming skills and algorithmic problem-solving abilities.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Placeholder cards */}
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-yellow-200 opacity-60">
+              <div className="text-center text-gray-500">
+                <p>Add more recognition</p>
+                <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Leadership Section */}
+      <section id="leadership" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-indigo-50 to-blue-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-pink-900 mb-12 text-center">Leadership & Activities</h2>
+          <div className="space-y-6">
+            {/* Add your leadership experiences here */}
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-indigo-200">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <div className="flex items-center gap-3">
+                  <div className="flex-shrink-0">
+                    <div className="w-10 h-10 bg-gradient-to-br from-indigo-500 to-blue-600 rounded-full flex items-center justify-center">
+                      <span className="text-white text-lg">👥</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-purple-800">General Secretary</h3>
+                    <p className="text-lg font-bold text-pink-700">Bangladesh Student Organization at UTA</p>
+                  </div>
+                </div>
+                <span className="text-purple-600">2025-26</span>
+              </div>
+              <ul className="text-gray-700 space-y-2">
+                <li>• Leading organizational activities and coordinating student events</li>
+                <li>• Managing administrative responsibilities and member communications</li>
+                <li>• Organizing cultural and social programs for the Bangladeshi student community</li>
+                <li>• Facilitating collaboration between different student groups at UTA</li>
+              </ul>
+            </div>
+
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-indigo-200">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <div className="flex items-center gap-3">
+                  <div className="flex-shrink-0">
+                    <div className="w-10 h-10 bg-gradient-to-br from-indigo-500 to-blue-600 rounded-full flex items-center justify-center">
+                      <span className="text-white text-lg">🏆</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-purple-800">Joint Sports Secretary</h3>
+                    <p className="text-lg font-bold text-pink-700">Bangladesh Student Organization at UTA</p>
+                  </div>
+                </div>
+                <span className="text-purple-600">2023-24</span>
+              </div>
+              <ul className="text-gray-700 space-y-2">
+                <li>• Organized and coordinated sports events and tournaments</li>
+                <li>• Managed team registrations and sports equipment logistics</li>
+                <li>• Promoted physical fitness and recreational activities among students</li>
+                <li>• Collaborated with university sports facilities and other organizations</li>
+              </ul>
+            </div>
+
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-indigo-200">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <div className="flex items-center gap-3">
+                  <div className="flex-shrink-0">
+                    <div className="w-10 h-10 bg-gradient-to-br from-indigo-500 to-blue-600 rounded-full flex items-center justify-center">
+                      <span className="text-white text-lg">🎯</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-purple-800">President</h3>
+                    <p className="text-lg font-bold text-pink-700">MIST Computer Club</p>
+                    <p className="text-purple-600">Military Institute of Science and Technology</p>
+                  </div>
+                </div>
+                <span className="text-purple-600">2019</span>
+              </div>
+              <ul className="text-gray-700 space-y-2">
+                <li>• Led the computer club with focus on programming and technology education</li>
+                <li>• Organized coding competitions and technical workshops</li>
+                <li>• Mentored junior students in programming and software development</li>
+                <li>• Established partnerships with tech companies for student training programs</li>
+              </ul>
+            </div>
+
+            {/* Placeholder for additional leadership */}
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-indigo-200 opacity-60">
+              <div className="text-center text-gray-500">
+                <p>Add more leadership experiences here</p>
                 <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
               </div>
             </div>
