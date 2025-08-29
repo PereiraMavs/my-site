@@ -1,4 +1,7 @@
-export default function Home() {
+import React from 'react'
+import Image from 'next/image'
+
+export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 to-purple-50 relative overflow-hidden">
       {/* Background Doodles */}
@@ -75,13 +78,17 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <div className="relative">
-                                <div className="w-80 h-80 bg-gradient-to-br from-pink-300 to-purple-600 rounded-full flex items-center justify-center">
-                  {/* Profile photo placeholder */}
-                  <div className="w-72 h-72 bg-slate-200 dark:bg-slate-700 rounded-full flex items-center justify-center">
-                    <span className="text-6xl text-slate-400 dark:text-slate-500">📸</span>
-                    <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-sm text-slate-600 dark:text-slate-400 bg-white dark:bg-slate-800 px-3 py-1 rounded-full">
-                      Add your photo
-                    </div>
+                <div className="w-80 h-80 bg-gradient-to-br from-pink-300 to-purple-600 rounded-full flex items-center justify-center p-2">
+                  {/* Profile photo */}
+                  <div className="w-72 h-72 rounded-full overflow-hidden bg-white">
+                    <Image
+                      src="/shovon.jpg"
+                      alt="Shovon Niverd Pereira"
+                      width={288}
+                      height={288}
+                      className="w-full h-full object-cover"
+                      priority
+                    />
                   </div>
                 </div>
               </div>
@@ -98,11 +105,20 @@ export default function Home() {
             {/* Add your actual education details here */}
             <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-pink-200">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                <h3 className="text-xl font-semibold text-purple-800">Master's/Bachelor's Degree</h3>
-                <span className="text-pink-700">Year - Year</span>
+                <h3 className="text-xl font-semibold text-purple-800">Ph.D. in Computer Science and Engineering</h3>
+                <span className="text-pink-700">2022 - Ongoing</span>
               </div>
-              <p className="text-purple-600 mb-2">University Name</p>
-              <p className="text-gray-700">Major/Field of Study • GPA: X.X/4.0</p>
+              <p className="text-purple-600 mb-2">The University of Texas at Arlington</p>
+              <p className="text-gray-700">Software Engineering for AI • GPA: 3.7/4.0</p>
+            </div>
+            
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-pink-200">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <h3 className="text-xl font-semibold text-purple-800">Bachelor of Science</h3>
+                <span className="text-pink-700">2016 - 2019</span>
+              </div>
+              <p className="text-purple-600 mb-2">Military Institute of Science and Technology</p>
+              <p className="text-gray-700">Computer Science and Engineering • GPA: 3.37/4.0</p>
             </div>
             
             {/* Add more education entries as needed */}
