@@ -40,9 +40,10 @@ export default function HomePage() {
           <a href="#about" className="text-purple-600 hover:text-pink-600 transition-colors">About</a>
           <a href="#education" className="text-purple-600 hover:text-pink-600 transition-colors">Education</a>
           <a href="#experience" className="text-purple-600 hover:text-pink-600 transition-colors">Experience</a>
+          <a href="#research" className="text-purple-600 hover:text-pink-600 transition-colors">Research</a>
+          <a href="#publications" className="text-purple-600 hover:text-pink-600 transition-colors">Publications</a>
           <a href="#awards" className="text-purple-600 hover:text-pink-600 transition-colors">Awards</a>
           <a href="#leadership" className="text-purple-600 hover:text-pink-600 transition-colors">Leadership</a>
-          <a href="#research" className="text-purple-600 hover:text-pink-600 transition-colors">Research</a>
           <a href="#contact" className="text-purple-600 hover:text-pink-600 transition-colors">Contact</a>
         </div>
       </nav>
@@ -122,14 +123,6 @@ export default function HomePage() {
               <p className="text-purple-600 mb-2">Military Institute of Science and Technology</p>
               <p className="text-gray-700">Computer Science and Engineering • GPA: 3.37/4.0</p>
             </div>
-            
-            {/* Add more education entries as needed */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-pink-200 opacity-60">
-              <div className="text-center text-gray-500">
-                <p>Add your education details here</p>
-                <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -205,13 +198,69 @@ export default function HomePage() {
                 <li>• Guide and evaluate students on various projects</li>
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Placeholder for additional experience */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200 opacity-60">
-              <div className="text-center text-gray-500">
-                <p>Add your work experience here</p>
-                <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
+      {/* Research Section */}
+      <section id="research" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-rose-100 to-purple-100">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-pink-900 mb-12 text-center">Research & Projects</h2>
+          <div className="space-y-6">
+            {/* Add your research projects here */}
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-rose-200">
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                <div className="flex-grow">
+                  <h3 className="text-xl font-semibold text-purple-800 mb-2">Constructing Good Surrogate Model for Machine Learning</h3>
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="bg-rose-100 text-rose-800 px-3 py-1 rounded-full text-sm font-medium border border-rose-300">Ongoing</span>
+                  </div>
+                </div>
               </div>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Understanding and interpreting the decision-making process of black-box machine learning models is often challenging, making their predictions less transparent. As ML models are increasingly adopted in sensitive domains like healthcare and finance, ensuring trustworthy and accountable decision-making is critical. This project aims to use surrogate models—simpler, interpretable models that approximate the behavior of complex black-box systems—to improve transparency. These models are easy to analyze and can also be valuable tools in studying adversarial attacks. We are exploring innovative techniques to construct effective surrogate models for black-box ML systems.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="bg-pink-200 text-pink-800 px-2 py-1 rounded text-sm">Machine Learning</span>
+                <span className="bg-purple-200 text-purple-800 px-2 py-1 rounded text-sm">Explainable AI</span>
+                <span className="bg-blue-200 text-blue-800 px-2 py-1 rounded text-sm">Surrogate Models</span>
+                <span className="bg-green-200 text-green-800 px-2 py-1 rounded text-sm">Adversarial Attacks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Publications Section */}
+      <section id="publications" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-pink-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold text-pink-900 mb-12 text-center">Publications</h2>
+          <div className="space-y-6">
+            {/* Add your publications here */}
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200">
+              <h3 className="text-xl font-bold text-purple-900 mb-4 leading-tight">Blockchain-based digital record-keeping in land administration system</h3>
+              <div className="mb-3">
+                <span className="text-sm font-semibold text-gray-600 uppercase tracking-wide">Authors:</span>
+                <p className="text-purple-700 font-medium mt-1"><span className="bg-pink-100 px-2 py-1 rounded font-bold text-pink-800">S Niverd Pereira</span>, N Tasnim, R Sunny Rizon, M Nazrul Islam</p>
+              </div>
+              <p className="text-purple-600 mb-4 font-medium italic">Proceedings of International Joint Conference on Advances in Computational Intelligence: IJCACI, 2021</p>
+              <p className="text-gray-700 mb-6 leading-relaxed">In this work, a blockchain-based framework is proposed to develop a land administration system. The proposed framework was simulated in Ethereum blockchain platform.</p>
+              <a href="https://link.springer.com/chapter/10.1007/978-981-16-0586-4_35" className="inline-flex items-center bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition-colors font-semibold" target="_blank" rel="noopener noreferrer">
+                📖 View Publication
+              </a>
+            </div>
+
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200">
+              <h3 className="text-xl font-bold text-purple-900 mb-4 leading-tight">Multi-channel Approach Towards Digitizing the Land Management System of Bangladesh</h3>
+              <div className="mb-3">
+                <span className="text-sm font-semibold text-gray-600 uppercase tracking-wide">Authors:</span>
+                <p className="text-purple-700 font-medium mt-1"><span className="bg-pink-100 px-2 py-1 rounded font-bold text-pink-800">Shovon Niverd Pereira</span>, Noshin Tasnim, M Shahir Rahman, Sanjida Nasreen Tumpa, Md Mahboob Karim, Rabius Sunny Rizon, Nabila Shahnaz Khan, Ruhul Ambia Remon</p>
+              </div>
+              <p className="text-purple-600 mb-4 font-medium italic">2018 IEEE International WIE Conference on Electrical and Computer Engineering, 2018</p>
+              <p className="text-gray-700 mb-6 leading-relaxed">This paper introduces a cloud based multi-channel approach to synchronize various aspects of land management to improve the current paper-based system into a faster and efficient one.</p>
+              <a href="https://ieeexplore.ieee.org/abstract/document/8783017" className="inline-flex items-center bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition-colors font-semibold" target="_blank" rel="noopener noreferrer">
+                📖 View Publication
+              </a>
             </div>
           </div>
         </div>
@@ -284,14 +333,6 @@ export default function HomePage() {
                   <p className="text-gray-700 text-sm mb-2">2018</p>
                   <p className="text-gray-600">Qualified for the prestigious ICPC Asia Dhaka Regional, demonstrating exceptional competitive programming skills and algorithmic problem-solving abilities.</p>
                 </div>
-              </div>
-            </div>
-
-            {/* Placeholder cards */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-yellow-200 opacity-60">
-              <div className="text-center text-gray-500">
-                <p>Add more recognition</p>
-                <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
               </div>
             </div>
           </div>
@@ -372,90 +413,6 @@ export default function HomePage() {
                 <li>• Mentored junior students in programming and software development</li>
                 <li>• Established partnerships with tech companies for student training programs</li>
               </ul>
-            </div>
-
-            {/* Placeholder for additional leadership */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-indigo-200 opacity-60">
-              <div className="text-center text-gray-500">
-                <p>Add more leadership experiences here</p>
-                <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Research Section */}
-      <section id="research" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-rose-100 to-purple-100">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-pink-900 mb-12 text-center">Research & Projects</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Add your research projects here */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-rose-200">
-              <h3 className="text-lg font-semibold text-purple-800 mb-3">Research Project Title</h3>
-              <p className="text-gray-600 mb-4">Brief description of your research focus and methodology.</p>
-              <div className="flex flex-wrap gap-2">
-                <span className="bg-pink-200 text-pink-800 px-2 py-1 rounded text-sm">ML</span>
-                <span className="bg-purple-200 text-purple-800 px-2 py-1 rounded text-sm">AI</span>
-              </div>
-            </div>
-
-            {/* Placeholder cards */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-rose-200 opacity-60">
-              <div className="text-center text-gray-500">
-                <p>Add your research projects</p>
-                <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
-              </div>
-            </div>
-
-            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-rose-200 opacity-60">
-              <div className="text-center text-gray-500">
-                <p>Add more projects</p>
-                <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Publications Section */}
-      <section id="publications" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-pink-50">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-pink-900 mb-12 text-center">Publications</h2>
-          <div className="space-y-6">
-            {/* Add your publications here */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200">
-              <h3 className="text-xl font-bold text-purple-900 mb-4 leading-tight">Blockchain-based digital record-keeping in land administration system</h3>
-              <div className="mb-3">
-                <span className="text-sm font-semibold text-gray-600 uppercase tracking-wide">Authors:</span>
-                <p className="text-purple-700 font-medium mt-1"><span className="bg-pink-100 px-2 py-1 rounded font-bold text-pink-800">S Niverd Pereira</span>, N Tasnim, R Sunny Rizon, M Nazrul Islam</p>
-              </div>
-              <p className="text-purple-600 mb-4 font-medium italic">Proceedings of International Joint Conference on Advances in Computational Intelligence: IJCACI, 2021</p>
-              <p className="text-gray-700 mb-6 leading-relaxed">In this work, a blockchain-based framework is proposed to develop a land administration system. The proposed framework was simulated in Ethereum blockchain platform.</p>
-              <a href="https://link.springer.com/chapter/10.1007/978-981-16-0586-4_35" className="inline-flex items-center bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition-colors font-semibold" target="_blank" rel="noopener noreferrer">
-                📖 View Publication
-              </a>
-            </div>
-
-            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200">
-              <h3 className="text-xl font-bold text-purple-900 mb-4 leading-tight">Multi-channel Approach Towards Digitizing the Land Management System of Bangladesh</h3>
-              <div className="mb-3">
-                <span className="text-sm font-semibold text-gray-600 uppercase tracking-wide">Authors:</span>
-                <p className="text-purple-700 font-medium mt-1"><span className="bg-pink-100 px-2 py-1 rounded font-bold text-pink-800">Shovon Niverd Pereira</span>, Noshin Tasnim, M Shahir Rahman, Sanjida Nasreen Tumpa, Md Mahboob Karim, Rabius Sunny Rizon, Nabila Shahnaz Khan, Ruhul Ambia Remon</p>
-              </div>
-              <p className="text-purple-600 mb-4 font-medium italic">2018 IEEE International WIE Conference on Electrical and Computer Engineering, 2018</p>
-              <p className="text-gray-700 mb-6 leading-relaxed">This paper introduces a cloud based multi-channel approach to synchronize various aspects of land management to improve the current paper-based system into a faster and efficient one.</p>
-              <a href="https://ieeexplore.ieee.org/abstract/document/8783017" className="inline-flex items-center bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition-colors font-semibold" target="_blank" rel="noopener noreferrer">
-                📖 View Publication
-              </a>
-            </div>
-
-            {/* Placeholder for publications */}
-            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200 opacity-60">
-              <div className="text-center text-gray-500">
-                <p>Add more publications here</p>
-                <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
-              </div>
             </div>
           </div>
         </div>
