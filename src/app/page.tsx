@@ -34,53 +34,53 @@ export default function HomePage() {
       </div>
 
       {/* Navigation */}
-              <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="text-2xl font-bold text-pink-700">SP</div>
-          <div className="space-x-6">
-            <a href="#about" className="text-purple-600 hover:text-pink-600 transition-colors">About</a>
-            <a href="#education" className="text-purple-600 hover:text-pink-600 transition-colors">Education</a>
-            <a href="#experience" className="text-purple-600 hover:text-pink-600 transition-colors">Experience</a>
-            <a href="#research" className="text-purple-600 hover:text-pink-600 transition-colors">Research</a>
-            <a href="#contact" className="text-purple-600 hover:text-pink-600 transition-colors">Contact</a>
-          </div>
-        </nav>
+      <nav className="container mx-auto px-4 sm:px-6 py-4 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
+        <div className="text-xl sm:text-2xl font-bold text-pink-700">SP</div>
+        <div className="flex flex-wrap justify-center sm:justify-end gap-4 sm:gap-6 text-sm sm:text-base">
+          <a href="#about" className="text-purple-600 hover:text-pink-600 transition-colors">About</a>
+          <a href="#education" className="text-purple-600 hover:text-pink-600 transition-colors">Education</a>
+          <a href="#experience" className="text-purple-600 hover:text-pink-600 transition-colors">Experience</a>
+          <a href="#research" className="text-purple-600 hover:text-pink-600 transition-colors">Research</a>
+          <a href="#contact" className="text-purple-600 hover:text-pink-600 transition-colors">Contact</a>
+        </div>
+      </nav>
 
       {/* Hero Section */}
-      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8">
+      <section id="about" className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-                            <h1 className="text-4xl md:text-6xl font-bold text-pink-900 mb-4">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div className="text-center lg:text-left order-2 lg:order-1">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-pink-900 mb-4 leading-tight">
                 Shovon Niverd Pereira
               </h1>
-              <p className="text-xl text-purple-700 mb-8">
+              <p className="text-lg sm:text-xl text-purple-700 mb-6 lg:mb-8">
                 Software Engineer & Researcher
               </p>
-              <p className="text-lg text-gray-700 mb-8 max-w-lg leading-relaxed">
+              <p className="text-base sm:text-lg text-gray-700 mb-6 lg:mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed">
                 I'm passionate about software development, artificial intelligence, 
                 and cutting-edge research. Currently pursuing my Master's in Computer Science 
                 with a focus on machine learning and data science.
               </p>
-              <div className="flex gap-4 mb-8">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
                 <a 
                   href="#contact" 
-                  className="bg-pink-600 text-white px-8 py-3 rounded-lg hover:bg-pink-700 transition-colors"
+                  className="bg-pink-600 text-white px-6 sm:px-8 py-3 rounded-lg hover:bg-pink-700 transition-colors text-center"
                 >
                   Get In Touch
                 </a>
                 <a 
                   href="#research" 
-                  className="border-2 border-purple-600 text-purple-600 px-8 py-3 rounded-lg hover:bg-purple-600 hover:text-white transition-colors"
+                  className="border-2 border-purple-600 text-purple-600 px-6 sm:px-8 py-3 rounded-lg hover:bg-purple-600 hover:text-white transition-colors text-center"
                 >
                   View Research
                 </a>
               </div>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center order-1 lg:order-2">
               <div className="relative">
-                <div className="w-80 h-80 bg-gradient-to-br from-pink-300 to-purple-600 rounded-full flex items-center justify-center p-2">
+                <div className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 bg-gradient-to-br from-pink-300 to-purple-600 rounded-full flex items-center justify-center p-2">
                   {/* Profile photo */}
-                  <div className="w-72 h-72 rounded-full overflow-hidden bg-white">
+                  <div className="w-60 h-60 sm:w-68 sm:h-68 lg:w-72 lg:h-72 rounded-full overflow-hidden bg-white">
                     <Image
                       src="/shovon.jpg"
                       alt="Shovon Niverd Pereira"
@@ -241,70 +241,70 @@ export default function HomePage() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-pink-100 to-purple-100">
+      <section id="contact" className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-pink-100 to-purple-100">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-pink-900 mb-8">Let's Connect</h2>
-          <p className="text-lg text-gray-700 mb-12">
+          <h2 className="text-2xl sm:text-3xl font-bold text-pink-900 mb-6 lg:mb-8">Let's Connect</h2>
+          <p className="text-base sm:text-lg text-gray-700 mb-8 lg:mb-12 max-w-3xl mx-auto">
             I'm always interested in discussing new opportunities, research collaborations, or innovative projects.
           </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             <div className="text-center">
-              <div className="bg-pink-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-pink-200 w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 lg:mb-4">
                 <Image
                   src="/icons8-gmail-50.png"
                   alt="Email"
                   width={32}
                   height={32}
-                  className="w-8 h-8"
+                  className="w-7 h-7 sm:w-8 sm:h-8"
                 />
               </div>
-              <h3 className="font-semibold text-purple-800 mb-2">Email</h3>
-              <a href="mailto:niverdpereira@gmail.com" className="text-pink-700 hover:underline">
+              <h3 className="font-semibold text-purple-800 mb-2 text-sm sm:text-base">Email</h3>
+              <a href="mailto:niverdpereira@gmail.com" className="text-pink-700 hover:underline text-xs sm:text-sm break-all">
                 niverdpereira@gmail.com
               </a>
             </div>
             <div className="text-center">
-              <div className="bg-blue-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-blue-200 w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 lg:mb-4">
                 <Image
                   src="/icons8-linkedin-50.png"
                   alt="LinkedIn"
                   width={32}
                   height={32}
-                  className="w-8 h-8"
+                  className="w-7 h-7 sm:w-8 sm:h-8"
                 />
               </div>
-              <h3 className="font-semibold text-purple-800 mb-2">LinkedIn</h3>
-              <a href="https://www.linkedin.com/in/shovon-niverd-pereira/" className="text-pink-700 hover:underline" target="_blank" rel="noopener noreferrer">
-                linkedin.com/in/shovon-niverd-pereira
+              <h3 className="font-semibold text-purple-800 mb-2 text-sm sm:text-base">LinkedIn</h3>
+              <a href="https://www.linkedin.com/in/shovon-niverd-pereira/" className="text-pink-700 hover:underline text-xs sm:text-sm" target="_blank" rel="noopener noreferrer">
+                View Profile
               </a>
             </div>
             <div className="text-center">
-              <div className="bg-gray-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-gray-200 w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 lg:mb-4">
                 <Image
                   src="/icons8-github-50.png"
                   alt="GitHub"
                   width={32}
                   height={32}
-                  className="w-8 h-8"
+                  className="w-7 h-7 sm:w-8 sm:h-8"
                 />
               </div>
-              <h3 className="font-semibold text-purple-800 mb-2">GitHub</h3>
-              <a href="https://github.com/PereiraMavs" className="text-pink-700 hover:underline" target="_blank" rel="noopener noreferrer">
-                github.com/PereiraMavs
+              <h3 className="font-semibold text-purple-800 mb-2 text-sm sm:text-base">GitHub</h3>
+              <a href="https://github.com/PereiraMavs" className="text-pink-700 hover:underline text-xs sm:text-sm" target="_blank" rel="noopener noreferrer">
+                View Code
               </a>
             </div>
             <div className="text-center">
-              <div className="bg-green-200 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="bg-green-200 w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 lg:mb-4">
                 <Image
                   src="/icons8-google-scholar-50.png"
                   alt="Google Scholar"
                   width={32}
                   height={32}
-                  className="w-8 h-8"
+                  className="w-7 h-7 sm:w-8 sm:h-8"
                 />
               </div>
-              <h3 className="font-semibold text-purple-800 mb-2">Google Scholar</h3>
-              <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=Kokbc-oAAAAJ" className="text-pink-700 hover:underline" target="_blank" rel="noopener noreferrer">
+              <h3 className="font-semibold text-purple-800 mb-2 text-sm sm:text-base">Google Scholar</h3>
+              <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=Kokbc-oAAAAJ" className="text-pink-700 hover:underline text-xs sm:text-sm" target="_blank" rel="noopener noreferrer">
                 View Publications
               </a>
             </div>
