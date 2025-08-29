@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 export default function HomePage() {
   return (
+    <div className="min-h-screen bg-gradient-to-br from-pink-50 to-purple-50 relative overflow-hidden">
       {/* Background Doodles */}
       <div className="fixed inset-0 pointer-events-none opacity-20">
         {/* Computer and Tech Doodles */}
