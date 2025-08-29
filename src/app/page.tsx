@@ -140,16 +140,67 @@ export default function HomePage() {
             {/* Add your actual job history here */}
             <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-semibold text-purple-800">Job Title</h3>
-                  <p className="text-pink-700">Company Name</p>
+                <div className="flex items-center gap-3">
+                  <div className="flex-shrink-0">
+                    <Image
+                      src="/icons8-samsung-50.png"
+                      alt="Samsung"
+                      width={32}
+                      height={32}
+                      className="w-8 h-8 opacity-80"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-purple-800">Sr. Software Engineer</h3>
+                    <p className="text-lg font-bold text-pink-700">Samsung Research and Development Institute</p>
+                  </div>
                 </div>
-                <span className="text-purple-600">Start Date - End Date</span>
+                <span className="text-purple-600">Feb 2020 - July 2022</span>
+              </div>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium border border-purple-300">Android</span>
+                <span className="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm font-medium border border-pink-300">Kotlin</span>
               </div>
               <ul className="text-gray-700 space-y-2">
-                <li>• Key achievement or responsibility</li>
-                <li>• Another important contribution</li>
-                <li>• Technologies used: React, Node.js, etc.</li>
+                <li>• Developed Samsung Account application as a part of Android Application team</li>
+                <li>• Led the development of terms & condition, remote sign in, profile status module</li>
+                <li>• Worked on several other modules such as sign out, API and app architecture</li>
+                <li>• Worked as part of a research team to minimize resource usage of Samsung Account in low-end devices</li>
+                <li>• Samsung Account is being used globally as the principal account and eco-system manager for Samsung devices</li>
+              </ul>
+            </div>
+
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <div className="flex items-center gap-3">
+                  <div className="flex-shrink-0">
+                    <Image
+                      src="/uta-the-university-of-texas-at-arlington-seeklogo-2.svg"
+                      alt="UTA"
+                      width={32}
+                      height={32}
+                      className="w-8 h-8 opacity-80"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-purple-800">Graduate Teaching Assistant</h3>
+                    <p className="text-lg font-bold text-pink-700">Department of Computer Science and Engineering</p>
+                    <p className="text-purple-600">The University of Texas at Arlington</p>
+                  </div>
+                </div>
+                <span className="text-purple-600">September 2022 - Ongoing</span>
+              </div>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="bg-rose-100 text-rose-800 px-3 py-1 rounded-full text-sm font-medium border border-rose-300">Object-oriented Software Engineering</span>
+                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium border border-blue-300">Distributed Systems</span>
+                <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium border border-green-300">Machine Learning</span>
+                <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium border border-orange-300">Assembly Language</span>
+              </div>
+              <ul className="text-gray-700 space-y-2">
+                <li>• Prepare course material and exams for bachelor and masters level students</li>
+                <li>• Grade quizzes and final exams</li>
+                <li>• Deliver lectures on behalf of course instructor when required</li>
+                <li>• Guide and evaluate students on various projects</li>
               </ul>
             </div>
 
