@@ -204,17 +204,25 @@ export default function HomePage() {
           <div className="space-y-6">
             {/* Add your publications here */}
             <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200">
-              <h3 className="text-lg font-semibold text-purple-800 mb-2">Publication Title</h3>
-              <p className="text-purple-600 mb-2">Authors: <span className="font-medium">Your Name</span>, Co-author Names</p>
-              <p className="text-purple-600 mb-2">Conference/Journal Name, Year</p>
-              <p className="text-gray-700 mb-4">Brief abstract or description of the publication.</p>
-              <a href="#" className="text-pink-700 hover:underline">View Publication →</a>
+              <h3 className="text-lg font-semibold text-purple-800 mb-2">Blockchain-based digital record-keeping in land administration system</h3>
+              <p className="text-purple-600 mb-2">Authors: <span className="font-medium">S Niverd Pereira</span>, N Tasnim, R Sunny Rizon, M Nazrul Islam</p>
+              <p className="text-purple-600 mb-2">Proceedings of International Joint Conference on Advances in Computational Intelligence: IJCACI, 2021</p>
+              <p className="text-gray-700 mb-4">In this work, a blockchain-based framework is proposed to develop a land administration system. The proposed framework was simulated in Ethereum blockchain platform.</p>
+              <a href="https://link.springer.com/chapter/10.1007/978-981-16-0586-4_35" className="text-pink-700 hover:underline" target="_blank" rel="noopener noreferrer">View Publication →</a>
+            </div>
+
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200">
+              <h3 className="text-lg font-semibold text-purple-800 mb-2">Multi-channel Approach Towards Digitizing the Land Management System of Bangladesh</h3>
+              <p className="text-purple-600 mb-2">Authors: <span className="font-medium">Shovon Niverd Pereira</span>, Noshin Tasnim, M Shahir Rahman, Sanjida Nasreen Tumpa, Md Mahboob Karim, Rabius Sunny Rizon, Nabila Shahnaz Khan, Ruhul Ambia Remon</p>
+              <p className="text-purple-600 mb-2">2018 IEEE International WIE Conference on Electrical and Computer Engineering, 2018</p>
+              <p className="text-gray-700 mb-4">This paper introduces a cloud based multi-channel approach to synchronize various aspects of land management to improve the current paper-based system into a faster and efficient one.</p>
+              <a href="https://ieeexplore.ieee.org/abstract/document/8783017" className="text-pink-700 hover:underline" target="_blank" rel="noopener noreferrer">View Publication →</a>
             </div>
 
             {/* Placeholder for publications */}
             <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200 opacity-60">
               <div className="text-center text-gray-500">
-                <p>Add your publications here</p>
+                <p>Add more publications here</p>
                 <p className="text-sm mt-2">Edit in src/app/page.tsx</p>
               </div>
             </div>
