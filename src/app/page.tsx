@@ -4,6 +4,27 @@ import Image from 'next/image'
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 to-purple-50 relative overflow-hidden">
+      {/* Back to Top Button */}
+      <button
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        className="fixed bottom-6 right-6 z-50 bg-pink-600 hover:bg-pink-700 text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2"
+        aria-label="Back to top"
+        title="Back to top"
+      >
+        <svg 
+          className="w-6 h-6" 
+          fill="none" 
+          stroke="currentColor" 
+          viewBox="0 0 24 24"
+        >
+          <path 
+            strokeLinecap="round" 
+            strokeLinejoin="round" 
+            strokeWidth={2} 
+            d="M5 10l7-7m0 0l7 7m-7-7v18" 
+          />
+        </svg>
+      </button>
       {/* Background Doodles */}
       <div className="fixed inset-0 pointer-events-none opacity-20">
         {/* Computer and Tech Doodles */}
@@ -57,7 +78,7 @@ export default function HomePage() {
                 Shovon Niverd Pereira
               </h1>
               <p className="text-lg sm:text-xl text-purple-700 mb-6 lg:mb-8">
-                Software Engineer & Researcher
+                Researcher & Software Engineer
               </p>
               <p className="text-base sm:text-lg text-gray-700 mb-6 lg:mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed">
                 I'm passionate about software development, artificial intelligence, 
@@ -112,7 +133,17 @@ export default function HomePage() {
                 <span className="text-pink-700">2022 - Ongoing</span>
               </div>
               <p className="text-purple-600 mb-2">The University of Texas at Arlington</p>
-              <p className="text-gray-700">Software Engineering for AI • GPA: 3.7/4.0</p>
+              <p className="text-gray-700">
+                <a 
+                  href="https://sercatuta-lei.github.io/team/" 
+                  className="text-purple-600 hover:text-pink-600 underline transition-colors"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Software Engineering Research Center
+                </a>
+                {" "}• GPA: 3.7/4.0
+              </p>
             </div>
             
             <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-pink-200">
