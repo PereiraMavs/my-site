@@ -127,67 +127,48 @@ export default function HomePage() {
               </p>
               
               {/* Courses Completed Subsection */}
-              <div className="mb-6">
-                <h4 className="text-lg font-semibold text-purple-700 mb-3 flex items-center">
-                  <span className="w-2 h-2 bg-pink-500 rounded-full mr-2"></span>
+              <div className="mb-4">
+                <h4 className="text-base font-medium text-purple-700 mb-2 flex items-center">
+                  <span className="w-1.5 h-1.5 bg-pink-500 rounded-full mr-2"></span>
                   Courses Completed
                 </h4>
-                <div className="grid md:grid-cols-2 gap-3">
-                  <div className="bg-purple-50 p-3 rounded-lg border border-purple-200">
-                    <span className="text-purple-800 font-medium">Data Structure and Algorithms</span>
-                  </div>
-                  <div className="bg-pink-50 p-3 rounded-lg border border-pink-200">
-                    <span className="text-pink-800 font-medium">Distributed Systems</span>
-                  </div>
-                  <div className="bg-blue-50 p-3 rounded-lg border border-blue-200">
-                    <span className="text-blue-800 font-medium">Data Analysis and Modelling Technique</span>
-                  </div>
-                  <div className="bg-green-50 p-3 rounded-lg border border-green-200">
-                    <span className="text-green-800 font-medium">Machine Learning</span>
-                  </div>
-                  <div className="bg-yellow-50 p-3 rounded-lg border border-yellow-200">
-                    <span className="text-yellow-800 font-medium">Compilers Algorithmic Language</span>
-                  </div>
-                  <div className="bg-indigo-50 p-3 rounded-lg border border-indigo-200">
-                    <span className="text-indigo-800 font-medium">Advanced Topics in Software Engineering</span>
-                  </div>
-                  <div className="bg-rose-50 p-3 rounded-lg border border-rose-200 md:col-span-2">
-                    <span className="text-rose-800 font-medium">Advanced Computational Models and Algorithms</span>
-                  </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded text-xs">Data Structures & Algorithms</span>
+                  <span className="bg-pink-100 text-pink-700 px-2 py-1 rounded text-xs">Distributed Systems</span>
+                  <span className="bg-blue-100 text-blue-700 px-2 py-1 rounded text-xs">Data Analysis & Modelling</span>
+                  <span className="bg-green-100 text-green-700 px-2 py-1 rounded text-xs">Machine Learning</span>
+                  <span className="bg-yellow-100 text-yellow-700 px-2 py-1 rounded text-xs">Compilers</span>
+                  <span className="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs">Advanced Software Engineering</span>
+                  <span className="bg-rose-100 text-rose-700 px-2 py-1 rounded text-xs">Computational Models & Algorithms</span>
                 </div>
               </div>
 
               {/* Milestones Completed Subsection */}
               <div>
-                <h4 className="text-lg font-semibold text-purple-700 mb-3 flex items-center">
-                  <span className="w-2 h-2 bg-pink-500 rounded-full mr-2"></span>
-                  Milestones Completed
+                <h4 className="text-base font-medium text-purple-700 mb-2 flex items-center">
+                  <span className="w-1.5 h-1.5 bg-pink-500 rounded-full mr-2"></span>
+                  PhD Progress
                 </h4>
-                <div className="space-y-3">
-                  <div className="flex items-center bg-green-50 p-3 rounded-lg border border-green-200">
-                    <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
-                    <span className="text-green-800 font-medium">Diagnostic Evaluation Completed</span>
-                    <span className="ml-auto text-green-600 text-sm">✓ Fall 2023</span>
+                <div className="grid md:grid-cols-2 gap-2 text-sm">
+                  <div className="flex items-center">
+                    <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                    <span className="text-gray-700">Diagnostic Evaluation</span>
+                    <span className="ml-auto text-green-600 text-xs">✓</span>
                   </div>
-                  <div className="flex items-center bg-green-50 p-3 rounded-lg border border-green-200">
-                    <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
-                    <span className="text-green-800 font-medium">Comprehensive Exam Completed</span>
-                    <span className="ml-auto text-green-600 text-sm">✓ Fall 2024</span>
+                  <div className="flex items-center">
+                    <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                    <span className="text-gray-700">Comprehensive Exam</span>
+                    <span className="ml-auto text-green-600 text-xs">✓</span>
                   </div>
-                  <div className="flex items-center bg-green-50 p-3 rounded-lg border border-green-200">
-                    <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
-                    <span className="text-green-800 font-medium">Coursework Completed</span>
-                    <span className="ml-auto text-green-600 text-sm">✓ Spring 2025</span>
+                  <div className="flex items-center">
+                    <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                    <span className="text-gray-700">Coursework</span>
+                    <span className="ml-auto text-green-600 text-xs">✓</span>
                   </div>
-                  <div className="flex items-center bg-blue-50 p-3 rounded-lg border border-blue-200">
-                    <div className="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
-                    <span className="text-blue-800 font-medium">Dissertation Proposal</span>
-                    <span className="ml-auto text-blue-600 text-sm">In Progress</span>
-                  </div>
-                  <div className="flex items-center bg-gray-50 p-3 rounded-lg border border-gray-200">
-                    <div className="w-3 h-3 bg-gray-400 rounded-full mr-3"></div>
-                    <span className="text-gray-700 font-medium">Dissertation Defense</span>
-                    <span className="ml-auto text-gray-500 text-sm">Future</span>
+                  <div className="flex items-center">
+                    <div className="w-2 h-2 bg-blue-500 rounded-full mr-2"></div>
+                    <span className="text-gray-700">Dissertation Proposal</span>
+                    <span className="ml-auto text-blue-600 text-xs">In Progress</span>
                   </div>
                 </div>
               </div>
