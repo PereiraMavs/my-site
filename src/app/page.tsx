@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import Image from 'next/image'
 
 export default function HomePage() {
@@ -114,7 +114,7 @@ export default function HomePage() {
                 <span className="text-pink-700">2022 - Ongoing</span>
               </div>
               <p className="text-purple-600 mb-2">The University of Texas at Arlington</p>
-              <p className="text-gray-700">
+              <p className="text-gray-700 mb-6">
                 <a 
                   href="https://sercatuta-lei.github.io/team/" 
                   className="text-purple-600 hover:text-pink-600 underline transition-colors"
@@ -125,6 +125,72 @@ export default function HomePage() {
                 </a>
                 {" "}• GPA: 3.7/4.0
               </p>
+              
+              {/* Courses Completed Subsection */}
+              <div className="mb-6">
+                <h4 className="text-lg font-semibold text-purple-700 mb-3 flex items-center">
+                  <span className="w-2 h-2 bg-pink-500 rounded-full mr-2"></span>
+                  Courses Completed
+                </h4>
+                <div className="grid md:grid-cols-2 gap-3">
+                  <div className="bg-purple-50 p-3 rounded-lg border border-purple-200">
+                    <span className="text-purple-800 font-medium">Data Structure and Algorithms</span>
+                  </div>
+                  <div className="bg-pink-50 p-3 rounded-lg border border-pink-200">
+                    <span className="text-pink-800 font-medium">Distributed Systems</span>
+                  </div>
+                  <div className="bg-blue-50 p-3 rounded-lg border border-blue-200">
+                    <span className="text-blue-800 font-medium">Data Analysis and Modelling Technique</span>
+                  </div>
+                  <div className="bg-green-50 p-3 rounded-lg border border-green-200">
+                    <span className="text-green-800 font-medium">Machine Learning</span>
+                  </div>
+                  <div className="bg-yellow-50 p-3 rounded-lg border border-yellow-200">
+                    <span className="text-yellow-800 font-medium">Compilers Algorithmic Language</span>
+                  </div>
+                  <div className="bg-indigo-50 p-3 rounded-lg border border-indigo-200">
+                    <span className="text-indigo-800 font-medium">Advanced Topics in Software Engineering</span>
+                  </div>
+                  <div className="bg-rose-50 p-3 rounded-lg border border-rose-200 md:col-span-2">
+                    <span className="text-rose-800 font-medium">Advanced Computational Models and Algorithms</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Milestones Completed Subsection */}
+              <div>
+                <h4 className="text-lg font-semibold text-purple-700 mb-3 flex items-center">
+                  <span className="w-2 h-2 bg-pink-500 rounded-full mr-2"></span>
+                  Milestones Completed
+                </h4>
+                <div className="space-y-3">
+                  <div className="flex items-center bg-green-50 p-3 rounded-lg border border-green-200">
+                    <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
+                    <span className="text-green-800 font-medium">Diagnostic Evaluation Completed</span>
+                    <span className="ml-auto text-green-600 text-sm">✓ Fall 2023</span>
+                  </div>
+                  <div className="flex items-center bg-green-50 p-3 rounded-lg border border-green-200">
+                    <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
+                    <span className="text-green-800 font-medium">Comprehensive Exam Completed</span>
+                    <span className="ml-auto text-green-600 text-sm">✓ Fall 2024</span>
+                  </div>
+                  <div className="flex items-center bg-green-50 p-3 rounded-lg border border-green-200">
+                    <div className="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
+                    <span className="text-green-800 font-medium">Coursework Completed</span>
+                    <span className="ml-auto text-green-600 text-sm">✓ Spring 2025</span>
+                  </div>
+                  <div className="flex items-center bg-blue-50 p-3 rounded-lg border border-blue-200">
+                    <div className="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
+                    <span className="text-blue-800 font-medium">Dissertation Proposal</span>
+                    <span className="ml-auto text-blue-600 text-sm">In Progress</span>
+                  </div>
+                  <div className="flex items-center bg-gray-50 p-3 rounded-lg border border-gray-200">
+                    <div className="w-3 h-3 bg-gray-400 rounded-full mr-3"></div>
+                    <span className="text-gray-700 font-medium">Dissertation Defense</span>
+                    <span className="ml-auto text-gray-500 text-sm">Future</span>
+                  </div>
+                </div>
+              </div>
             </div>
             
             <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-pink-200">
@@ -174,6 +240,38 @@ export default function HomePage() {
                 <li>• Worked on several other modules such as sign out, API and app architecture</li>
                 <li>• Worked as part of a research team to minimize resource usage of Samsung Account in low-end devices</li>
                 <li>• Samsung Account is being used globally as the principal account and eco-system manager for Samsung devices</li>
+              </ul>
+            </div>
+
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <div className="flex items-center gap-3">
+                  <div className="flex-shrink-0">
+                    <Image
+                      src="/uta-the-university-of-texas-at-arlington-seeklogo-2.svg"
+                      alt="UTA"
+                      width={32}
+                      height={32}
+                      className="w-8 h-8 opacity-80"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-purple-800">Graduate Research Assistant</h3>
+                    <p className="text-lg font-bold text-pink-700">Dean's Office</p>
+                    <p className="text-purple-600">The University of Texas at Arlington</p>
+                  </div>
+                </div>
+                <span className="text-purple-600">Summer 2024</span>
+              </div>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm font-medium border border-emerald-300">Research</span>
+                <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium border border-indigo-300">Academic Administration</span>
+              </div>
+              <ul className="text-gray-700 space-y-2">
+                <li>• Conducted research projects under the Dean's office supervision</li>
+                <li>• Assisted with academic administrative tasks and initiatives</li>
+                <li>• Collaborated on institutional research and development projects</li>
+                <li>• Supported various academic programs and strategic planning activities</li>
               </ul>
             </div>
 
@@ -327,7 +425,7 @@ export default function HomePage() {
                   <h3 className="text-lg font-semibold text-purple-800 mb-2">Travel Grant to 13th Summer School on Formal Techniques</h3>
                   <p className="text-purple-600 font-medium mb-2">Stanford Research Institute</p>
                   <p className="text-gray-700 text-sm mb-2">2024</p>
-                  <p className="text-gray-600">Competitive travel grant to attend advanced summer school on formal methods and verification techniques at Stanford.</p>
+                  <p className="text-gray-600">Competitive travel grant to attend advanced summer school on formal methods and verification techniques. I met and learned from world renowned computer scientists. It was funded by Stanford Research Institute affiliated with Stanford University.</p>
                 </div>
               </div>
             </div>
@@ -344,6 +442,22 @@ export default function HomePage() {
                   <p className="text-purple-600 font-medium mb-2">International Collegiate Programming Contest</p>
                   <p className="text-gray-700 text-sm mb-2">2018</p>
                   <p className="text-gray-600">Qualified for the prestigious ICPC Asia Dhaka Regional, demonstrating exceptional competitive programming skills and algorithmic problem-solving abilities.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-yellow-200">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center">
+                    <span className="text-white text-xl">🎤</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-purple-800 mb-2">Inter Department Debate Champion</h3>
+                  <p className="text-purple-600 font-medium mb-2">Military Institute of Science and Technology</p>
+                  <p className="text-gray-700 text-sm mb-2">2019</p>
+                  <p className="text-gray-600">Champion in inter-departmental debate competition, demonstrating exceptional communication skills and critical thinking abilities.</p>
                 </div>
               </div>
             </div>
