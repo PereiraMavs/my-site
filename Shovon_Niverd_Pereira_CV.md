@@ -23,20 +23,19 @@ PhD candidate in Computer Science at UT Arlington with over 2 years of industry 
 - Focus: Explainable AI, Surrogate Models, Machine Learning
 
 **Courses Completed:**
-- Data Structure and Algorithms
+- Data Structures & Algorithms
 - Distributed Systems  
-- Data Analysis and Modelling Technique
+- Data Analysis & Modelling
 - Machine Learning
-- Compilers Algorithmic Language
-- Advanced Topics in Software Engineering
-- Advanced Computational Models and Algorithms
+- Compilers
+- Advanced Software Engineering
+- Computational Models & Algorithms
 
-**PhD Milestones:**
-- ✅ Diagnostic Evaluation Completed (Fall 2023)
-- ✅ Comprehensive Exam Completed (Fall 2024)
-- ✅ Coursework Completed (Spring 2025)
+**PhD Progress:**
+- ✅ Diagnostic Evaluation (Fall 2023)
+- ✅ Comprehensive Exam (Fall 2024)
+- ✅ Coursework (Spring 2025)
 - 🔄 Dissertation Proposal (In Progress)
-- ⏳ Dissertation Defense (Future)
 
 ### Bachelor of Science in Computer Science and Engineering
 **Military Institute of Science and Technology** | *2016 - 2019*  
@@ -46,13 +45,14 @@ PhD candidate in Computer Science at UT Arlington with over 2 years of industry 
 
 ## Professional Experience
 
-### Graduate Research Assistant
-**Dean's Office, UT Arlington** | *Summer 2024*
-- Conducted research projects under the Dean's office supervision
-- Assisted with academic administrative tasks and initiatives
-- Collaborated on institutional research and development projects
-- Supported various academic programs and strategic planning activities
-- **Focus Areas:** Research, Academic Administration
+### Senior Software Engineer
+**Samsung Research and Development Institute** | *February 2020 - July 2022*
+- Developed Samsung Account application as part of Android Application team
+- Led development of terms & conditions, remote sign-in, and profile status modules
+- Worked on sign-out, API, and app architecture modules
+- Participated in research team to minimize resource usage of Samsung Account in low-end devices
+- Samsung Account is used globally as the principal account and ecosystem manager for Samsung devices
+- **Technologies:** Android, Kotlin
 
 ### Graduate Teaching Assistant
 **Department of Computer Science and Engineering, UT Arlington** | *September 2022 - Present*
@@ -62,14 +62,13 @@ PhD candidate in Computer Science at UT Arlington with over 2 years of industry 
 - Guide and evaluate students on various projects
 - **Courses:** Object-oriented Software Engineering, Distributed Systems, Machine Learning, Assembly Language
 
-### Senior Software Engineer
-**Samsung Research and Development Institute** | *February 2020 - July 2022*
-- Developed Samsung Account application as part of Android Application team
-- Led development of terms & conditions, remote sign-in, and profile status modules
-- Worked on sign-out, API, and app architecture modules
-- Participated in research team to minimize resource usage of Samsung Account in low-end devices
-- Samsung Account is used globally as the principal account and ecosystem manager for Samsung devices
-- **Technologies:** Android, Kotlin
+### Graduate Research Assistant
+**Dean's Office, UT Arlington** | *Summer 2024*
+- Conducted research projects under the Dean's office supervision
+- Assisted with academic administrative tasks and initiatives
+- Collaborated on institutional research and development projects
+- Supported various academic programs and strategic planning activities
+- **Focus Areas:** Research, Academic Administration
 
 ---
 
