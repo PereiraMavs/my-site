@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Image from 'next/image'
+import ScholarMetrics from '@/components/ScholarMetrics'
 
 export default function HomePage() {
   return (
@@ -40,8 +41,9 @@ export default function HomePage() {
           <a href="#about" className="text-purple-600 hover:text-pink-600 transition-colors">About</a>
           <a href="#education" className="text-purple-600 hover:text-pink-600 transition-colors">Education</a>
           <a href="#experience" className="text-purple-600 hover:text-pink-600 transition-colors">Experience</a>
-          <a href="#research" className="text-purple-600 hover:text-pink-600 transition-colors">Research</a>
           <a href="#publications" className="text-purple-600 hover:text-pink-600 transition-colors">Publications</a>
+          <a href="#publications" className="text-purple-600 hover:text-pink-600 transition-colors">Publications</a>
+          <a href="#metrics" className="text-purple-600 hover:text-pink-600 transition-colors">Impact</a>
           <a href="#awards" className="text-purple-600 hover:text-pink-600 transition-colors">Awards</a>
           <a href="#leadership" className="text-purple-600 hover:text-pink-600 transition-colors">Leadership</a>
           <a href="#contact" className="text-purple-600 hover:text-pink-600 transition-colors">Contact</a>
@@ -74,10 +76,10 @@ export default function HomePage() {
                   Get In Touch
                 </a>
                 <a 
-                  href="#research" 
+                  href="#publications" 
                   className="border-2 border-purple-600 text-purple-600 px-6 sm:px-8 py-3 rounded-lg hover:bg-purple-600 hover:text-white transition-colors text-center"
                 >
-                  View Research
+                  View Publications
                 </a>
               </div>
             </div>
@@ -326,6 +328,12 @@ export default function HomePage() {
       <section id="publications" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-pink-900 mb-12 text-center">Publications</h2>
+          
+          {/* Research Impact Widget */}
+          <div className="mb-8">
+            <ScholarMetrics />
+          </div>
+          
           <div className="space-y-6">
             {/* Add your publications here */}
             <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-sm border border-purple-200">
