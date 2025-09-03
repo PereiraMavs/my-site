@@ -42,8 +42,6 @@ export default function HomePage() {
           <a href="#education" className="text-purple-600 hover:text-pink-600 transition-colors">Education</a>
           <a href="#experience" className="text-purple-600 hover:text-pink-600 transition-colors">Experience</a>
           <a href="#publications" className="text-purple-600 hover:text-pink-600 transition-colors">Publications</a>
-          <a href="#publications" className="text-purple-600 hover:text-pink-600 transition-colors">Publications</a>
-          <a href="#metrics" className="text-purple-600 hover:text-pink-600 transition-colors">Impact</a>
           <a href="#awards" className="text-purple-600 hover:text-pink-600 transition-colors">Awards</a>
           <a href="#leadership" className="text-purple-600 hover:text-pink-600 transition-colors">Leadership</a>
           <a href="#contact" className="text-purple-600 hover:text-pink-600 transition-colors">Contact</a>
