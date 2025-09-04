@@ -2,6 +2,7 @@ import * as React from 'react'
 import Image from 'next/image'
 import ScholarMetrics from '@/components/ScholarMetrics'
 
+
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 to-purple-50 relative overflow-hidden">
