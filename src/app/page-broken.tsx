@@ -191,13 +191,13 @@ export default function ProfessionalHomePage() {
               },
               {
                 title: 'Graduate Research Assistant',
-                company: "Dean's Office",
+                company: "Dean\'s Office",
                 location: 'UT Arlington',
                 period: 'Summer 2024',
                 logo: '/uta-the-university-of-texas-at-arlington-seeklogo-2.svg',
                 tags: ['Research', 'Academic Administration'],
                 points: [
-                  'Conducted research projects under Dean's office supervision',
+                  'Conducted research projects under Dean\'s office supervision',
                   'Assisted with academic administrative tasks and initiatives',
                   'Collaborated on institutional research and development projects'
                 ]
