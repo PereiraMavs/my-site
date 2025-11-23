@@ -12,7 +12,7 @@ interface ScholarData {
   error?: string;
 }
 
-const CACHE_KEY = 'scholar-data-cache';
+const CACHE_KEY = 'scholar-data-cache-v2'; // Changed cache key to force refresh
 const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
 
 export function useScholarData() {

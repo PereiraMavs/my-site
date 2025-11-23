@@ -10,6 +10,7 @@ export async function GET() {
     const apiKey = process.env.SERPAPI_KEY;
     
     if (!apiKey) {
+      console.log('No SERPAPI_KEY found in environment variables');
       // Fallback to static data if no API key is provided
       return NextResponse.json({
         citations: 15,
@@ -17,9 +18,12 @@ export async function GET() {
         i10Index: 1,
         publications: 2,
         recentCitations: [3, 5, 7], // Last 3 years
-        lastUpdated: new Date().toISOString()
+        lastUpdated: new Date().toISOString(),
+        error: 'No API key configured'
       });
     }
+
+    console.log('Fetching data from SerpAPI for user:', userId);
 
     const response = await fetch(
       `https://serpapi.com/search.json?engine=google_scholar_author&author_id=${userId}&api_key=${apiKey}`
@@ -31,6 +35,8 @@ export async function GET() {
 
     const data = await response.json();
     
+    console.log('SerpAPI response received:', JSON.stringify(data, null, 2));
+    
     // Extract metrics from the response
     const scholarData = {
       citations: data.cited_by?.table?.[0]?.citations?.all || 15,
@@ -40,6 +46,8 @@ export async function GET() {
       recentCitations: data.cited_by?.graph || [3, 5, 7],
       lastUpdated: new Date().toISOString()
     };
+
+    console.log('Extracted scholar data:', scholarData);
 
     return NextResponse.json(scholarData);
     

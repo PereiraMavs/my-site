@@ -1,6 +1,5 @@
 import * as React from 'react'
 import ScholarMetrics from '@/components/ScholarMetrics'
-import HeroStats from '@/components/HeroStats'
 
 
 export default function HomePage() {
@@ -16,14 +15,14 @@ export default function HomePage() {
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <a href="#" className="text-2xl font-bold bg-gradient-to-r from-slate-600 to-blue-400 bg-clip-text text-transparent">SNP</a>
+            <a href="#" className="text-2xl font-bold bg-gradient-to-r from-slate-900 to-blue-600 bg-clip-text text-transparent">SNP</a>
             <div className="hidden md:flex gap-8 text-sm font-medium">
-              <a href="#about" className="text-slate-600 hover:text-blue-400 transition-colors">About</a>
-              <a href="#education" className="text-slate-600 hover:text-blue-400 transition-colors">Education</a>
-              <a href="#experience" className="text-slate-600 hover:text-blue-400 transition-colors">Experience</a>
-              <a href="#research" className="text-slate-600 hover:text-blue-400 transition-colors">Research</a>
-              <a href="#publications" className="text-slate-600 hover:text-blue-400 transition-colors">Publications</a>
-              <a href="#contact" className="text-slate-600 hover:text-blue-400 transition-colors">Contact</a>
+              <a href="#about" className="text-slate-600 hover:text-blue-600 transition-colors">About</a>
+              <a href="#education" className="text-slate-600 hover:text-blue-600 transition-colors">Education</a>
+              <a href="#experience" className="text-slate-600 hover:text-blue-600 transition-colors">Experience</a>
+              <a href="#research" className="text-slate-600 hover:text-blue-600 transition-colors">Research</a>
+              <a href="#publications" className="text-slate-600 hover:text-blue-600 transition-colors">Publications</a>
+              <a href="#contact" className="text-slate-600 hover:text-blue-600 transition-colors">Contact</a>
             </div>
             <div className="md:hidden">
               <button className="p-2 rounded-lg hover:bg-slate-100">☰</button>
@@ -41,7 +40,7 @@ export default function HomePage() {
                 <h1 className="text-5xl lg:text-6xl font-bold text-slate-900 leading-tight">
                   Shovon Niverd Pereira
                 </h1>
-                <p className="text-xl text-slate-500 font-semibold">PhD Researcher in Explainable AI</p>
+                <p className="text-xl text-blue-600 font-semibold">PhD Researcher in Explainable AI</p>
                 <p className="text-lg text-slate-600 leading-relaxed max-w-xl">
                   Computer Science PhD candidate at UT Arlington with 3+ years of industry experience 
                   as a Senior Software Engineer at Samsung R&D. Specializing in interpretable machine 
@@ -53,26 +52,39 @@ export default function HomePage() {
               <div className="flex gap-4 flex-wrap">
                 <a 
                   href="#contact" 
-                  className="px-8 py-3 bg-slate-500 text-white rounded-lg hover:bg-slate-600 transition-colors font-medium"
+                  className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
                 >
                   Get In Touch
                 </a>
                 <a 
                   href="#publications" 
-                  className="px-8 py-3 border-2 border-slate-300 text-slate-900 rounded-lg hover:border-blue-400 hover:text-blue-400 transition-colors font-medium"
+                  className="px-8 py-3 border-2 border-slate-300 text-slate-900 rounded-lg hover:border-blue-600 hover:text-blue-600 transition-colors font-medium"
                 >
                   View Work
                 </a>
               </div>
 
               {/* Quick Stats */}
-              <HeroStats />
+              <div className="grid grid-cols-3 gap-6 pt-4">
+                <div className="text-center lg:text-left">
+                  <div className="text-3xl font-bold text-blue-600">3+</div>
+                  <div className="text-sm text-slate-600">Years Industry</div>
+                </div>
+                <div className="text-center lg:text-left">
+                  <div className="text-3xl font-bold text-blue-600">15+</div>
+                  <div className="text-sm text-slate-600">Citations</div>
+                </div>
+                <div className="text-center lg:text-left">
+                  <div className="text-3xl font-bold text-blue-600">2+</div>
+                  <div className="text-sm text-slate-600">Publications</div>
+                </div>
+              </div>
             </div>
 
             {/* Profile Image */}
             <div className="flex justify-center">
               <div className="relative w-80 h-80">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-300 to-slate-400 rounded-2xl transform rotate-3"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-200 to-slate-300 rounded-2xl transform rotate-3"></div>
                 <div className="absolute inset-0 bg-white rounded-2xl shadow-2xl overflow-hidden border-8 border-white">
                   <img
                     src="/shovon.jpg"
