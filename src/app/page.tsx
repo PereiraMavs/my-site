@@ -1,5 +1,4 @@
 import * as React from 'react'
-import Image from 'next/image'
 import ScholarMetrics from '@/components/ScholarMetrics'
 
 
@@ -86,14 +85,11 @@ export default function HomePage() {
               <div className="relative">
                 <div className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 bg-gradient-to-br from-pink-300 to-purple-600 rounded-full flex items-center justify-center p-2">
                   {/* Profile photo */}
-                  <div className="w-60 h-60 sm:w-68 sm:h-68 lg:w-72 lg:h-72 rounded-full overflow-hidden bg-white">
-                    <Image
+                  <div className="w-60 h-60 sm:w-64 sm:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden bg-white">
+                    <img
                       src="/shovon.jpg"
                       alt="Shovon Niverd Pereira"
-                      width={288}
-                      height={288}
                       className="w-full h-full object-cover"
-                      priority
                     />
                   </div>
                 </div>
@@ -197,11 +193,11 @@ export default function HomePage() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div className="flex items-center gap-3">
                   <div className="flex-shrink-0">
-                    <Image
+                    <img
                       src="/icons8-samsung-50.png"
                       alt="Samsung"
-                      width={32}
-                      height={32}
+                      
+                      
                       className="w-8 h-8 opacity-80"
                     />
                   </div>
@@ -229,11 +225,11 @@ export default function HomePage() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div className="flex items-center gap-3">
                   <div className="flex-shrink-0">
-                    <Image
+                    <img
                       src="/uta-the-university-of-texas-at-arlington-seeklogo-2.svg"
                       alt="UTA"
-                      width={32}
-                      height={32}
+                      
+                      
                       className="w-8 h-8 opacity-80"
                     />
                   </div>
@@ -261,11 +257,11 @@ export default function HomePage() {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div className="flex items-center gap-3">
                   <div className="flex-shrink-0">
-                    <Image
+                    <img
                       src="/uta-the-university-of-texas-at-arlington-seeklogo-2.svg"
                       alt="UTA"
-                      width={32}
-                      height={32}
+                      
+                      
                       className="w-8 h-8 opacity-80"
                     />
                   </div>
@@ -542,11 +538,11 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             <div className="text-center">
               <div className="bg-pink-200 w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 lg:mb-4">
-                <Image
+                <img
                   src="/icons8-gmail-50.png"
                   alt="Email"
-                  width={32}
-                  height={32}
+                  
+                  
                   className="w-7 h-7 sm:w-8 sm:h-8"
                 />
               </div>
@@ -557,11 +553,11 @@ export default function HomePage() {
             </div>
             <div className="text-center">
               <div className="bg-blue-200 w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 lg:mb-4">
-                <Image
+                <img
                   src="/icons8-linkedin-50.png"
                   alt="LinkedIn"
-                  width={32}
-                  height={32}
+                  
+                  
                   className="w-7 h-7 sm:w-8 sm:h-8"
                 />
               </div>
@@ -572,11 +568,11 @@ export default function HomePage() {
             </div>
             <div className="text-center">
               <div className="bg-gray-200 w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 lg:mb-4">
-                <Image
+                <img
                   src="/icons8-github-50.png"
                   alt="GitHub"
-                  width={32}
-                  height={32}
+                  
+                  
                   className="w-7 h-7 sm:w-8 sm:h-8"
                 />
               </div>
@@ -587,11 +583,11 @@ export default function HomePage() {
             </div>
             <div className="text-center">
               <div className="bg-green-200 w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center mx-auto mb-3 lg:mb-4">
-                <Image
+                <img
                   src="/icons8-google-scholar-50.png"
                   alt="Google Scholar"
-                  width={32}
-                  height={32}
+                  
+                  
                   className="w-7 h-7 sm:w-8 sm:h-8"
                 />
               </div>
